@@ -9,8 +9,19 @@ Specifically, DCIFL uses KL divergences to align the distributions of both laten
 Integrating MCB and DCIFL, we introduce EAV-Net, an efficient model for retinal A/V classification.
 The proposed method has been tested on three publicly available datasets with an accuracy of 96.59\%, 97.28\%, and 99.34\% across AV-DRIVE, WIDE, and HRF datasets, respectively. These results demonstrate the superiority of our proposed approach in outperforming the state-of-the-art methods.
 
-## Usage:
+## Usage
+###Training EAV-Net on AVDRIVE dataset
 ```
+python3 train.py
+```
+###Testing
+```
+python3 predict.py
+```
+
+###Evaluation
+```
+cd evaluation && python3 eval.py
 ```
 
 ## License
